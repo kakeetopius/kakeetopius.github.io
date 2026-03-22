@@ -1,0 +1,44 @@
+[[main]]
+name = "Home"
+pageRef = "/"
+url = "/"
+weight = 1
+identifier = "home"
+[main.params]
+icon = "fa-solid fa-house"
+
+# [[main]]
+# name = "About"
+# pageRef = "about"
+# url = "/about/"
+# weight = 2
+# identifier = "about"
+# [main.params]
+# icon = "fa-regular fa-user"
+
+[[main]]
+name = "About"
+pageRef = "about-alternative"
+url = "/about-alternative/"
+weight = 2
+identifier = "about-alternative"
+[main.params]
+icon = "fa-solid fa-user"
+
+[[main]]
+name = "Projects"
+pageRef = "projects"
+url = "/projects/"
+weight = 3
+identifier = "projects"
+[main.params]
+icon = "fa-regular fa-folder-open"
+
+[[main]]
+name = "Blog"
+pageRef = "blog"
+url = "/blog/"
+weight = 4
+identifier = "blog"
+[main.params]
+icon = "fa-regular fa-note-sticky"

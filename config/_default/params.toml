@@ -1,0 +1,140 @@
+brand = "Kakeeto Pius"
+
+favicon = "icons/favicon.svg"
+appleTouchIcon = "apple-touch-icon.png"
+
+# logo = "images/logo.png"
+[icons]
+	useDevicon = true
+	useFontAwesome = true
+
+[hero]
+	badge = "Network and Systems Engineer"
+	title = "Hi, I'm Kakeeto Pius"
+	summary = "Network and systems enthusiast, programmer and security engineer in training"
+	location = "Nairobi, Kenya"
+	focus = "Currently studying Computer Networks and Security at Strathmore University"
+
+    [hero.primary]
+      label = "View Projects"
+      href = "/projects/"
+
+    [hero.secondary]
+      label = "Read the Blog"
+      href = "/blog/"
+
+
+
+[home]
+	sections = ["hero", "now", "tech-marquee", "projects", "posts"]
+    showFeaturedProjects = true
+    showLatestPosts = true
+    techMarqueeLabel = "What I work with"
+    [[home.tech]]
+      label = "Golang"
+      icon = "devicon-go-plain"
+
+    [[home.tech]]
+      label = "Python"
+      icon = "devicon-python-plain"
+
+    [[home.tech]]
+      label = "C"
+      icon = "devicon-c-plain"
+
+    [[home.tech]]
+      label = "Rust"
+      icon = "devicon-rust-plain"
+
+    [[home.tech]]
+      label = "Java"
+      icon = "devicon-java-plain"
+
+    [[home.tech]]
+      label = "Fedora"
+      icon = "devicon-fedora-plain"
+
+    [[home.tech]]
+      label = "GitHub"
+      icon = "devicon-github-plain"
+
+    [[home.tech]]
+      label = "Docker"
+      icon = "devicon-docker-plain"
+
+    [[home.techReverse]]
+      label = "Git"
+      icon = "devicon-git-plain"
+
+    [[home.techReverse]]
+      label = "Hugo"
+      icon = "devicon-hugo-plain"  
+
+    [[home.techReverse]]
+      label = "Neovim"
+      icon = "devicon-neovim-plain" 
+
+    [[home.techReverse]]
+      label = "Json"
+      icon = "devicon-json-plain" 
+
+    [[home.techReverse]]
+      label = "Linux"
+      icon = "devicon-linux-plain"          
+
+    [[home.techReverse]]
+      label = "Markdown"
+      icon = "devicon-markdown-original"  
+
+    [[home.techReverse]]
+      label = "YAML"
+      icon = "devicon-yaml-plain"  
+
+    [[home.techReverse]]
+      label = "pfSense"
+      icon = "devicon-pfsense-plain"       
+
+[[social]]
+label = "GitHub"
+url = "https://github.com/kakeetopius"
+icon = "fa-brands fa-github"
+
+[[social]]
+label = "LinkedIn"
+url = "https://www.linkedin.com/in/pius-kakeeto-28203b338/"
+icon = "fa-brands fa-linkedin-in"
+
+[[social]]
+label = "Email"
+url = "mailto:pius.kakeeto@strathmore.edu"
+icon = "fa-regular fa-envelope"
+
+#about page
+[about.alt]
+	[[about.alt.stats]]
+		value = "2+"
+		label = "Years Coding"
+	
+	[[about.alt.stats]]
+		value = "8+"
+		label = "Projects"
+	
+	[[about.alt.skills]]
+		label = "Golang"
+		icon = "devicon-go-plain"
+
+	[[about.alt.skills]]
+		label = "Python"
+		icon = "devicon-python-plain"
+
+	[[about.alt.skills]]
+		label = "Docker"
+		icon = "devicon-docker-plain"
+
+	[[about.alt.skills]]
+		label = "Linux"
+		icon = "devicon-linux-plain"
+
+	[[about.alt.skills]]
+		label = "AWS"
+		icon = "devicon-amazonwebservices-plain"

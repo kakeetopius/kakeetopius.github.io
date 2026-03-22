@@ -1,0 +1,38 @@
+# Table of Contents
+[tableOfContents]
+startLevel = 2
+endLevel = 4
+
+# Goldmark Renderer (Markdown)
+[goldmark.renderer]
+unsafe = true
+
+[goldmark.parser]
+  [goldmark.parser.attribute]
+	block = true
+
+[goldmark.extensions]
+typographer = true
+linkify = true
+table = true
+strikethrough = true
+taskList = true
+definitionList = true
+footnote = true
+
+[goldmark.extensions.extras.delete]
+  enable = true
+[goldmark.extensions.extras.insert]
+  enable = true
+[goldmark.extensions.extras.mark]
+  enable = true
+
+# Syntax Highlighting
+[highlight]
+codeFences = true
+guessSyntax = true
+lineNos = false
+lineNumbersInTable = false
+noClasses = false
+style = "monokai"
+tabWidth = 2
