@@ -2,7 +2,7 @@ baseURL = 'https://piuskl.me/'
 locale = 'en-us'
 title = 'Kakeeto Pius'
 theme = 'minimal-black'
-
+publishDir = "docs"
 # Enable search index generation and web app manifest
 [outputs]
   home = ["HTML", "RSS", "JSON", "WebAppManifest"]
